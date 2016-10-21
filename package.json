@@ -28,7 +28,8 @@
     "rebel:bs": "eval $(dependencyEnv) && npm run rebel && ./rebel.sh examples/bs-project",
     "rebel": "eval $(dependencyEnv) && nopam && ./compile-rebel.sh",
     "editor": "eval $(dependencyEnv) && $EDITOR .",
-    "postinstall": "npm run rebel"
+    "postinstall": "npm run rebel",
+    "test": "echo \"No tests\""
   },
   "version": "0.0.23"
 }
