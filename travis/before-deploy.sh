@@ -4,4 +4,6 @@ PLATFORM=$([ "$TRAVIS_OS_NAME" == "linux" ] && echo "linux64" || echo "$TRAVIS_O
 
 echo "$TRAVIS_OS_NAME"
 
+ls -all
+
 zip "test-$PLATFORM.zip" package.json
