@@ -7,8 +7,11 @@ os:
   - linux
   - osx
 
-script:
-  - npm run rebel
+install:
+  - echo "Hello"
+
+# script:
+#   - npm run rebel
 
 after_success:
   - sh travis/set_tags.sh
